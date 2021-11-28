@@ -6,7 +6,7 @@ A simply laravel docker multi-stage image build.
 
 ```bash
 cd multi-stage/
-docker-build -t <your_image_name>:<additional_tag> .
+docker build -t <your_image_name>:<additional_tag> .
 
 # Long run multi stage build
 # Either run synchronous or asynchronous build

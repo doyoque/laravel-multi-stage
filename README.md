@@ -5,7 +5,7 @@ A simply laravel docker multi-stage image build.
 ## How To?
 
 ```bash
-cd multi-stage/
+cd laravel-multi-stage/
 docker build -t <your_image_name>:<additional_tag> .
 
 # Long run multi stage build
